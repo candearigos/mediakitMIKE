@@ -1,0 +1,334 @@
+:root {
+    --main-color:  #1B5C9E;;
+    --text-color:#9C80E1;
+    --bg-color: #394855;
+    --secondary-color:rgb(173, 130, 73);
+    --black-color: rgb(0, 0, 0);
+    --azulbrillante: #d6d6d6;
+
+}
+html{
+    overflow-x: hidden;
+}
+/* .animado{
+    opacity: 0;
+    transition: all 1s;
+} */
+.body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    color: --text-color;
+    background-color: var(--black-color);
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* background: linear-gradient(to bottom, #23488F, #43B4AC); */
+    background-color: black;
+}
+.cande{
+    background-color: #00000000;
+    padding: 1%;
+}
+/* fauvuismo */
+.navbar-header{
+    width: 20%;
+}
+.navbar-header img{
+    width: 60%;
+}
+nav a{
+    background-color: (156, 106, 202);
+    border-radius: 3%;  
+    color:#9E9D9D;
+    text-decoration: none;
+    padding: 3%;
+    
+}
+.logo{
+    width: 35%;
+}
+.offcanvas{
+    background-color: #00000071;
+}
+.offcanvas-end{
+    margin-right: 5%;
+}
+.offcanvas-title{
+    width: 100%;
+}
+.logoresponsive{
+    width: 70%;
+}
+
+/* video */
+.videoresponsive{
+    display: none;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+    opacity: 100%;
+    height: 490px;
+}
+
+/* texto video */
+.titulo h1{
+    font-size: 2.5rem;
+    color: #21BCC6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    animation-name: tituloppal;
+    animation-duration: 5s;
+    position: relative;
+    z-index: 2;
+    margin-top: 15%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+@keyframes tituloppal{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.titulo h2{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20%;
+    font-weight: 800;
+    animation-name: tituloppal;
+    animation-duration: 7s;
+    position: relative;
+    z-index: 2;
+}
+.titulo h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    animation-name: tituloppal;
+    animation-duration: 7s;
+    position: relative;
+    z-index: 2;  
+}
+.titulo p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    display: inline-block;
+    z-index: 2;
+    width: auto;
+}
+.botoncontacto{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    background-color: #b8b8b8;
+    font-weight: 200;
+    padding: 1.5%;
+    border-radius: 2%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.botoncontacto:hover{
+    background-color: #394855;
+    color: white;
+}
+/* data */
+.datosresponsive{
+    display: none;
+}
+.datos{
+    display: block;
+}
+.datosduros{
+    padding-top: 10%;
+}
+.datos{
+    background-color: var(--black-color);
+    padding: 0% 0% 0% 0%;
+}
+.datos img{
+    width: 130%;
+}
+.redes{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+.redes h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.medio{
+    color:var(--azulbrillante);
+}
+
+.descripcion p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 10%;
+    padding: 5%;
+    font-weight: 50;
+}
+.giffotos img{
+    width: 100%;
+}
+
+
+/* about us */
+.sobrenos{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.sobrenos h3{
+font-size: 30px;
+font-weight: 800;
+}
+.sobrenos h4{
+    font-size: 15px;
+}
+.sobrenos p{
+    font-size: 13px;
+}
+
+.aboutus{
+    margin-left: 2%;
+}
+.aboutus h4{
+    font-weight: 100;
+}
+.aboutus p{
+    padding: 5%;
+    font-size: 15px;
+}
+.fotomike img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* proyectos */
+.proyectos{
+    background-color: rgb(34, 34, 34);
+}
+.proyectos h3{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3%;
+    font-weight: 800;
+}
+.categorias{
+    padding-top: 2%;
+}
+
+/* colecciones */
+/* .colecciones{
+    background-color: rgb(224, 226, 228);
+} */
+.colecciones{
+    font-family: 'Open Sans', sans-serif;
+}
+.colecciones h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    animation-name: titulocoleccion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes titulocoleccion{
+    0%{
+        opacity: 0%;
+        letter-spacing: 10px;
+    }
+    100%{
+        opacity: 100%;
+        letter-spacing: 20px;
+    }
+}
+.colecciones p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.gifcolores{
+    margin-left: 7.5%;
+    width: 85%;
+
+}
+.pranagrande img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.prana2 img{
+    width: 100%;
+    animation-name: pranacolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    filter: grayscale(0%);
+}
+
+.prana2 img:hover{
+    width: 105%;
+    filter: grayscale(100%);
+}
+.runco img{
+    width: 80%;
+}
+.runco h3{
+    rotate: 90;
+}
+
+
+
+
+/* dispositivo pequeño */
+@media(max-width: 480px){
+.videoresponsive{
+    display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        object-fit: cover;
+        opacity: 100%;
+        height: 500px;
+    }
+    .desktop{
+        display: none;
+    }
+    .datosresponsive{
+        display: block;
+    }
+    .datos{
+        display: none;
+    }
+    .datosres{
+        padding-top: 60%;
+    }
+    .redes h2{
+        font-size: 40px;
+    }
+    .redes p{
+        font-size: 20px;
+    }
+    .giffotos{
+        width: 120%;
+        margin-left: -10%;
+    }
+    .fotomike img{
+        width: 120%;
+        margin-left: -10%;
+        margin-top: 5%;
+    }
+    .proyectos{
+        background-color: rgb(0, 0, 0);
+    }
+}
