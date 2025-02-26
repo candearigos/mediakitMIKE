@@ -126,7 +126,7 @@ video {
 .botoncontacto{
     text-decoration: none;
     color: rgb(20, 20, 20);
-    background-color: #b8b8b8;
+    background-color: #e2e2e2;
     font-weight: 200;
     padding: 1.5%;
     border-radius: 2%;
@@ -217,7 +217,7 @@ font-weight: 800;
 .proyectos{
     background-color: rgb(34, 34, 34);
 }
-.proyectos h3{
+.proyectos h3, .colecciones h3, .nuestroslocales h3{
     font-family: 'Open Sans', sans-serif;
     padding-top: 3%;
     font-weight: 800;
@@ -256,6 +256,8 @@ font-weight: 800;
 .colecciones p{
     text-align: center;
     color: white;
+}
+.cita{
     font-style: italic;
 }
 .gifcolores{
@@ -268,7 +270,7 @@ font-weight: 800;
     margin-bottom: 2%;
 }
 .prana2 img{
-    width: 100%;
+    width: 110%;
     animation-name: pranacolor;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -284,6 +286,30 @@ font-weight: 800;
 }
 .runco h3{
     rotate: 90;
+}
+.confian img{
+    width: 100%;
+}
+.confian h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+.botones{
+    text-decoration: none;
+    color: #000000;
+}
+.botones:hover{
+    color: rgb(90, 90, 90);
+}
+
+/* MAPA */
+.mapa img{
+    width: 100%;
+    margin-top: -15%;
+}
+.info{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
 }
 
 
@@ -335,5 +361,8 @@ font-weight: 800;
     .gifcolores{
         margin-left: 0%;
         width: 100%;
+    }
+    .botonescolecciones button{
+        margin-top: 5%;
     }
 }
