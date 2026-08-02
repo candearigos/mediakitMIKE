@@ -184,14 +184,14 @@ video {
 
 
 /* about us */
-.sobrenos{
+.sobrenos, .colores{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.sobrenos h3{
+.sobrenos h3, .colores h3{
 font-size: 30px;
 font-weight: 800;
 }
-.sobrenos h4{
+.sobrenos h4, .colores h4, .notalanacion h4{
     font-size: 15px;
 }
 .sobrenos p{
@@ -212,15 +212,24 @@ font-weight: 800;
     width: 80%;
     margin-left: 10%;
 }
+.fotocolores img{
+    width: 100%;
+}
 
 /* proyectos */
 .proyectos{
     background-color: rgb(34, 34, 34);
 }
-.proyectos h3, .colecciones h3, .nuestroslocales h3{
+.proyectos h3, .colecciones h3, .nuestroslocales h3, .colores h3, .notalanacion h3{
     font-family: 'Open Sans', sans-serif;
     padding-top: 3%;
     font-weight: 800;
+}
+
+/* VIDEO YOUTUBE */
+.videoyoutube iframe{
+    width: 100%;
+    margin-left: 0%;
 }
 .categorias{
     padding-top: 2%;
