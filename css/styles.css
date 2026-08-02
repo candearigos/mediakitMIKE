@@ -228,8 +228,9 @@ font-weight: 800;
 
 /* VIDEO YOUTUBE */
 .videoyoutube iframe{
-    width: 100%;
+  
     margin-left: 0%;
+    align-content: center;
 }
 .categorias{
     padding-top: 2%;
